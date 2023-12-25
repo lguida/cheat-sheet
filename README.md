@@ -18,6 +18,10 @@ rm -rf node_modules
 ```
 npm cache clean --force
 ```
+### Set default node version 
+```
+nvm alias default 20
+```
 ### Which arch is node using
 ```
 node -p 'process.arch'
